@@ -1,0 +1,62 @@
+* {
+  margin: 0; /*todas as margens da pagina 0 */
+  padding: 0; /*preeenchimento da pagina 0 */
+}
+
+body {
+  background-color: black;
+} /*cor do fundo*/
+
+footer {
+  font-family: tahoma;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 350px;
+}
+
+div {
+  /*edita todos os itens dentro da div no caso o H1*/
+  margin-top: 3em; /*altura da margem superior em relaçao a fonte */
+  text-align: center; /*alinhamento do texto*/
+  color: white; /*cor*/
+  font-family: Tahoma; /*tipo de fonte*/
+  font-size: 24px; /*tamanho da fonte*/
+}
+
+button {
+  /*edita todos os botoes*/
+  font-family: tahoma; /*tipo da fonte*/
+  font-size: 22px; /*tamanho da fonte*/
+  color: white; /*cor*/
+  margin-top: 25px; /*margem superior*/
+  height: 90px; /*altura*/
+  width: 150px; /*largura*/
+  border: none; /*borda*/
+  border-radius: 5px; /*arredondamento da borda*/
+}
+
+.start-bnt {
+  background-color: green;
+  /*cor do fundo do botao*/
+}
+
+.pause-bnt {
+  background-color: gray; /*cor do fundo do botao*/
+}
+
+.zerar-bnt {
+  background-color: rgba(255, 0, 0, 0.833); /*cor do fundo do botao*/
+}
+
+.start-bnt:hover {
+  background-color: rgb(5, 196, 5);
+  cursor: pointer; /*ao entrar em contato com o botão o curso vira um mao*/
+}
+.pause-bnt:hover {
+  background-color: rgb(171, 171, 171);
+  cursor: pointer; /*ao entrar em contato com o botão o curso vira um mao*/
+}
+.zerar-bnt:hover {
+  background-color: rgb(255, 21, 21);
+  cursor: pointer; /*ao entrar em contato com o botão o curso vira um mao*/
+}
